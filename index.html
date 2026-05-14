@@ -17,6 +17,7 @@
         }
         .property-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
         .property-card:hover { transform: translateY(-10px); box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25); }
+        .pine-logo { width: 42px; height: 42px; }
     </style>
 </head>
 <body class="bg-[#F8F1E9] text-[#1F2937]">
@@ -24,11 +25,16 @@
     <nav class="bg-white/95 backdrop-blur-md fixed w-full z-50 shadow-sm">
         <div class="max-w-7xl mx-auto px-6">
             <div class="flex justify-between items-center h-20">
+                <!-- NEW PINE TREE LOGO -->
                 <div class="flex items-center gap-x-3">
-                    <div class="w-11 h-11 bg-[#0A3D2F] rounded-full flex items-center justify-center">
-                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 3L20 8V21H4V8L12 3Z" fill="#C9A227"/>
-                            <path d="M8 21V12H16V21" stroke="#0A3D2F" stroke-width="1.5"/>
+                    <div class="pine-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Gold outline -->
+                            <path d="M50 8 L75 35 L65 35 L80 55 L70 55 L85 75 L50 92 L15 75 L30 55 L20 55 L35 35 L25 35 Z" fill="none" stroke="#C9A227" stroke-width="6"/>
+                            <!-- Dark green fill -->
+                            <path d="M50 12 L72 38 L62 38 L77 56 L67 56 L82 74 L50 88 L18 74 L33 56 L23 56 L38 38 L28 38 Z" fill="#0A3D2F"/>
+                            <!-- Gold trunk -->
+                            <rect x="46" y="74" width="8" height="14" fill="#C9A227"/>
                         </svg>
                     </div>
                     <div>
@@ -105,8 +111,8 @@
                 <h2 class="text-5xl md:text-6xl leading-none font-bold tracking-tighter text-[#0A3D2F] mb-6">A true <span class="text-[#C9A227]">family business</span></h2>
                 
                 <div class="max-w-xl text-lg text-[#374151] space-y-5">
-                    <p>Empire Real Estate & Investing LLC is a small, family-owned brokerage based in Crandon, Wisconsin. Led by Broker <strong>Josh Vollmar</strong>, we are a tight-knit team of three: Josh, his wife, and his mother — all working together to serve the Northwoods community.</p>
-                    <p>We specialize in <strong>land, hunting land, recreational land, lake homes, and cabins</strong>. Our deep local roots and honest, hands-on approach set us apart.</p>
+                    <p>Empire Real Estate & Investing LLC is a small, family-owned brokerage based in Crandon, Wisconsin. Led by Broker <strong>Josh Vollmar</strong>, we are a tight-knit team of three: Josh, his wife <strong>Ashley Vollmar</strong>, and his mother — all working together to serve the Northwoods community with honesty and local expertise.</p>
+                    <p>We specialize in <strong>land, hunting land, recreational land, lake homes, and cabins</strong>. Our deep local roots and personal service set us apart.</p>
                 </div>
                 
                 <div class="mt-8 flex flex-wrap gap-4">
@@ -114,7 +120,10 @@
                         <i class="fas fa-user-tie text-[#C9A227]"></i> Josh Vollmar — Principal Broker
                     </div>
                     <div class="inline-flex items-center gap-x-2 px-5 py-2 bg-white rounded-2xl border border-[#0A3D2F]/10 text-sm font-medium">
-                        <i class="fas fa-users text-[#C9A227]"></i> Wife & Mother — Team Members
+                        <i class="fas fa-user text-[#C9A227]"></i> Ashley Vollmar — Realtor
+                    </div>
+                    <div class="inline-flex items-center gap-x-2 px-5 py-2 bg-white rounded-2xl border border-[#0A3D2F]/10 text-sm font-medium">
+                        <i class="fas fa-users text-[#C9A227]"></i> Family Team
                     </div>
                 </div>
             </div>
@@ -664,7 +673,7 @@
                 });
             });
             
-            console.log('%c[Empire Real Estate] Site updated with accurate family team info!', 'color:#C9A227');
+            console.log('%c[Empire Real Estate] Site fully updated with new pine tree logo and family branding!', 'color:#C9A227');
         }
 
         window.onload = initializeWebsite;
