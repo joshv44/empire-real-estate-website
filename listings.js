@@ -32,6 +32,25 @@
  */
 window.EMPIRE_LISTINGS = [
   {
+    status: "Just Listed",
+    type: "Condo",
+    title: "Updated 3-Bedroom Condo at Pineridge",
+    address: "334 Brookside Dr, Unit 5, Mayville, WI 53050",
+    price: 225000,
+    beds: 3,
+    baths: 2,
+    sqft: 1140,
+    acres: null, // complex acreage only — not the unit
+    mls: "50334880",
+    agent: "Empire Real Estate",
+    description:
+      "Completely updated, meticulously maintained 2004 Pineridge condo with gas fireplace and an attached 2-car garage. New flooring, fixtures, trim, toilets and sinks, Nest thermostats and a Ring camera; interior repainted 2025–2026. Most new furniture included (except bedroom set and desk). Within a block of the TAG Center (swimming, exercise) and a dog park.",
+    // Sources: https://www.premierrealty.group/property/RANW-50334880/
+    //          https://www.klapperichrealestate.com/homes-for-sale/334-Brookside-Drive-Unit-5-Mayville-WI-53050-441431843
+    url: "https://www.premierrealty.group/property/RANW-50334880/",
+    photo: ""
+  },
+  {
     status: "Active",
     type: "Lakefront Resort",
     title: "Pine Valley Lodge on the Moen Lake Chain",
