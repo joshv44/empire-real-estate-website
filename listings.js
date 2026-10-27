@@ -101,7 +101,7 @@ window.EMPIRE_LISTINGS = [
     description:
       "Immaculate 2006-built home with Brazilian Tiger hardwood throughout, cathedral-ceiling living room, 3-season room, main-floor primary and laundry, upstairs loft suite with claw-foot tub, and a detached 2-car garage with room for toys.",
     // Source: https://www.ezhomesearch.com/propertydetails/us/wi/pelican-lake/383-cth-b-54463/220004/
-    url: "https://www.realty.com/homedetails/383-cth-b-pelican-lake-wi-54463",
+    url: "https://gnmls.xposureapp.com/portal/wisconsin/InteractiveLink?u=1378732&l=220004&t=mls&h=IGKmGWo5B1a6t4DlSDjE540NgAo%3D",
     photo: ""
   },
   {
