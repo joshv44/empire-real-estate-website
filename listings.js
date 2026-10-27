@@ -55,7 +55,7 @@ window.EMPIRE_LISTINGS = [
     type: "Single Family",
     title: "Spacious 2-Story Home in Oshkosh",
     address: "2884 Westmoor Rd, Oshkosh, WI 54904",
-    price: 399900,
+    price: 389900,
     beds: 3,
     baths: 2.5,
     sqft: 2450,
