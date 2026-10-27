@@ -1,9 +1,8 @@
 (function () {
   "use strict";
 
-  // TODO(Josh): set the inbox that should receive website form messages.
-  // Currently Shelly's public listing email; change to your preferred address.
-  var CONTACT_EMAIL = "empirerealestateshelly@gmail.com";
+  // Inbox that receives website form messages (Josh).
+  var CONTACT_EMAIL = "joshvollmar@yahoo.com";
 
   var fmtMoney = function (n) {
     return n == null ? "Call for price" : "$" + Number(n).toLocaleString("en-US");

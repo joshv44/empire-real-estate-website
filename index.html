@@ -35,6 +35,7 @@
     "image": "https://empirerealestatewi.com/assets/hero-bg.jpg",
     "logo": "https://empirerealestatewi.com/assets/logo.svg",
     "telephone": "+1-920-619-2170",
+    "email": "joshvollmar@yahoo.com",
     "slogan": "Land • Lakes • Luxury",
     "address": {
       "@type": "PostalAddress",
@@ -46,10 +47,10 @@
     },
     "areaServed": ["Crandon, WI", "Forest County, WI", "Northwoods of Wisconsin", "Fond du Lac, WI", "Fox Cities, WI"],
     "knowsAbout": ["Land sales", "Property valuations", "Lakefront property", "Recreational land"],
-    "founder": {"@type": "Person", "name": "Joshua Vollmar", "jobTitle": "Broker / Owner", "image": "https://empirerealestatewi.com/assets/team/josh.jpg"},
+    "founder": {"@type": "Person", "name": "Joshua Vollmar", "jobTitle": "Broker / Owner", "email": "joshvollmar@yahoo.com", "image": "https://empirerealestatewi.com/assets/team/josh.jpg"},
     "employee": [
-      {"@type": "Person", "name": "Joshua Vollmar", "jobTitle": "Broker / Owner", "telephone": "+1-920-619-2170", "image": "https://empirerealestatewi.com/assets/team/josh.jpg"},
-      {"@type": "Person", "name": "Ashley Vollmar", "jobTitle": "Agent", "image": "https://empirerealestatewi.com/assets/team/ashley.jpg"},
+      {"@type": "Person", "name": "Joshua Vollmar", "jobTitle": "Broker / Owner", "telephone": "+1-920-619-2170", "email": "joshvollmar@yahoo.com", "image": "https://empirerealestatewi.com/assets/team/josh.jpg"},
+      {"@type": "Person", "name": "Ashley Vollmar", "jobTitle": "Agent", "telephone": "+1-608-843-2743", "email": "ashleynvollmar@gmail.com", "image": "https://empirerealestatewi.com/assets/team/ashley.jpg"},
       {"@type": "Person", "name": "Shelly Kindschuh", "alternateName": "Michelle Kindschuh", "jobTitle": "Agent", "telephone": "+1-920-574-6884", "image": "https://empirerealestatewi.com/assets/team/shelly.jpg"}
     ]  }
   </script>
@@ -206,7 +207,7 @@
               <p>Josh has been in real estate for 10 years and is the broker and owner of Empire Real Estate in Crandon. He specializes in land and property valuations, helping clients understand what their property is really worth. Along with representing buyers and sellers, Empire also buys properties directly.</p>
               <p class="agent-contact">
                 <a href="tel:+19206192170">(920) 619-2170</a>
-                <!-- TODO(Josh): add your business email, e.g. <a href="mailto:you@empirerealestatewi.com">you@empirerealestatewi.com</a> -->
+                <a href="mailto:joshvollmar@yahoo.com">joshvollmar@yahoo.com</a>
               </p>
             </div>
           </article>
@@ -217,10 +218,10 @@
             <div class="agent-body">
               <h3>Ashley Vollmar</h3>
               <p class="agent-role">Agent</p>
-              <!-- TODO(Josh): add Ashley's direct phone/email if she wants them listed. -->
               <p>Ashley is an agent with Empire Real Estate working in Crandon and the Northwoods, where she specializes in lake properties.</p>
               <p class="agent-contact">
-                <a href="tel:+19206192170">(920) 619-2170</a>
+                <a href="tel:+16088432743">(608) 843-2743</a>
+                <a href="mailto:ashleynvollmar@gmail.com">ashleynvollmar@gmail.com</a>
               </p>
             </div>
           </article>
@@ -256,9 +257,7 @@
             <li>Resorts and commercial property</li>
           </ul>
         </div>
-        <!-- TODO(Josh): choose how form submissions reach you. Right now the form opens the visitor's
-             email app (mailto). To receive submissions directly, sign up for a form service
-             (e.g. Formspree or FormSubmit) and set data-endpoint on this form to its URL. -->
+        <!-- Form submissions open the visitor's email app addressed to CONTACT_EMAIL (main.js). Optional: set data-endpoint to a form-service URL (e.g. Formspree) to receive them without the visitor's email app. -->
         <form class="card form" id="valuationForm" data-subject="Free Home Valuation Request" data-endpoint="">
           <label>Your name<input name="Name" required autocomplete="name"></label>
           <div class="form-row">
@@ -367,9 +366,8 @@
           <ul class="contact-list">
             <li><span>Phone / Text</span><a href="tel:+19206192170">(920) 619-2170</a></li>
             <li><span>Office</span><a href="https://maps.google.com/?q=4315+Section+9+Rd,+Crandon,+WI+54520" target="_blank" rel="noopener">4315 Section 9 Rd, Crandon, WI 54520</a></li>
-            <!-- TODO(Josh): add office email and hours, e.g.
-            <li><span>Email</span><a href="mailto:info@empirerealestatewi.com">info@empirerealestatewi.com</a></li>
-            <li><span>Hours</span>By appointment</li> -->
+            <li><span>Email</span><a href="mailto:joshvollmar@yahoo.com">joshvollmar@yahoo.com</a></li>
+            <!-- TODO(Josh): add office hours if you want them shown, e.g. <li><span>Hours</span>By appointment</li> -->
             <!-- TODO(Josh): add your Facebook page link:
             <li><span>Facebook</span><a href="https://www.facebook.com/YOURPAGE" target="_blank" rel="noopener">Empire Real Estate</a></li> -->
           </ul>
@@ -379,7 +377,7 @@
           </div>
           <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=4315+Section+9+Rd,+Crandon,+WI+54520" target="_blank" rel="noopener">Get directions ↗</a>
         </div>
-        <!-- TODO(Josh): same as the valuation form: set data-endpoint to a form service URL to receive messages directly. -->
+        <!-- Optional: set data-endpoint to a form-service URL, same as the valuation form. -->
         <form class="card form" id="contactForm" data-subject="Website Inquiry" data-endpoint="">
           <h3>Send a Message</h3>
           <label>Your name<input name="Name" required autocomplete="name"></label>
@@ -415,7 +413,7 @@
           <img src="assets/logo.svg" alt="" width="36" height="36">
           <span class="brand-text"><span class="brand-name">EMPIRE</span><span class="brand-sub">REAL ESTATE</span></span>
         </div>
-        <p><strong>Empire Real Estate LLC</strong><br>4315 Section 9 Rd, Crandon, WI 54520<br><a href="tel:+19206192170">(920) 619-2170</a></p>
+        <p><strong>Empire Real Estate LLC</strong><br>4315 Section 9 Rd, Crandon, WI 54520<br><a href="tel:+19206192170">(920) 619-2170</a><br><a href="mailto:joshvollmar@yahoo.com">joshvollmar@yahoo.com</a></p>
       </div>
       <div>
         <h4>Explore</h4>
