@@ -83,7 +83,7 @@ window.EMPIRE_LISTINGS = [
     description:
       "7-bedroom farmhouse with a large 2016 addition and main-floor primary suite. 55×96 pole building with 4 horse stalls, 3+ stall garage with 220V, 40×50 Quonset, chicken coop and barn. Pre-approval / proof of funds required to show.",
     // Source: https://www.coldwellbanker.com/wi/brownsville/n3262-state-road-175/lid-P00800000HHSSAf6NS3WPCV7J8Nro9IRt6hWEzYm
-    url: "https://zsvc.paragon.ice.com/s/goto/FZ9PrD4_UA0",
+    url: "https://zsvc.paragon.ice.com/s/goto/Tv7rSjnfmCx",
     photo: ""
   },
   {
