@@ -119,7 +119,7 @@ window.EMPIRE_LISTINGS = [
     description:
       "Year-round home or cabin with 180 ft of Peshtigo River frontage on just over 7 wooded acres with open field areas. Bonus office/den, full basement, and two garages for boats, UTVs and snowmobiles.",
     // Source: https://www.firstweber.com/realestate/details/26037785/4087-hwy-8-argonne-wi-54511 (price reduced to $189,900 on 10/16/2026)
-    url: "https://listings.northwoodsrealtors.org/listing/Forest-WI/4087-Hwy-8/37vn5",
+    url: "https://gnmls.xposureapp.com/portal/wisconsin/InteractiveLink?u=1378732&l=218689&t=mls&h=J9iBSvI4dWdCF%2F9vjm7cjpwMzJU%3D",
     photo: ""
   }
 ];
