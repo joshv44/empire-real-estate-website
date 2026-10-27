@@ -45,11 +45,12 @@
       "addressCountry": "US"
     },
     "areaServed": ["Crandon, WI", "Forest County, WI", "Oneida County, WI", "Northern Wisconsin"],
+    "founder": {"@type": "Person", "name": "Joshua Vollmar", "jobTitle": "Broker / Owner", "image": "https://empirerealestatewi.com/assets/team/josh.jpg"},
     "employee": [
-      {"@type": "Person", "name": "Joshua Vollmar", "jobTitle": "Broker / Owner"},
-      {"@type": "Person", "name": "Shelly Kindschuh", "jobTitle": "Real Estate Agent", "telephone": "+1-920-574-6884"}
-    ]
-  }
+      {"@type": "Person", "name": "Joshua Vollmar", "jobTitle": "Broker / Owner", "telephone": "+1-920-619-2170", "image": "https://empirerealestatewi.com/assets/team/josh.jpg"},
+      {"@type": "Person", "name": "Ashley Vollmar", "jobTitle": "Agent", "image": "https://empirerealestatewi.com/assets/team/ashley.jpg"},
+      {"@type": "Person", "name": "Shelly Kindschuh", "alternateName": "Michelle Kindschuh", "jobTitle": "Agent", "telephone": "+1-920-574-6884", "image": "https://empirerealestatewi.com/assets/team/shelly.jpg"}
+    ]  }
   </script>
 </head>
 <body>
@@ -174,15 +175,14 @@
           <h2>Meet the Team</h2>
         </div>
         <div class="team-grid">
-          <!-- TEAM MEMBER: Josh -->
+          <!-- TEAM MEMBER: Josh Vollmar (owner) -->
           <article class="agent">
-            <!-- TODO(Josh): replace with a headshot: save as assets/team/josh.jpg and swap the div below for <img src="assets/team/josh.jpg" alt="Joshua Vollmar"> -->
-            <div class="agent-photo placeholder" aria-hidden="true">JV</div>
+            <img class="agent-photo" src="assets/team/josh.jpg" alt="Joshua Vollmar, Broker / Owner of Empire Real Estate" width="533" height="800" loading="lazy">
             <div class="agent-body">
               <h3>Joshua Vollmar</h3>
               <p class="agent-role">Broker / Owner</p>
               <!-- TODO(Josh): add a 2–4 sentence bio (background, specialties, why you started Empire). -->
-              <p>Josh is the founder of Empire Real Estate and a licensed Wisconsin real estate broker based in Crandon. He works with buyers and sellers of land, lakefront, residential and commercial property throughout the Northwoods.</p>
+              <p>Josh is the founder and owner of Empire Real Estate and a licensed Wisconsin real estate broker based in Crandon. He works with buyers and sellers of land, lakefront, residential and commercial property throughout the Northwoods.</p>
               <p class="placeholder-text">[Full bio coming soon]</p>
               <p class="agent-contact">
                 <a href="tel:+19206192170">(920) 619-2170</a>
@@ -191,16 +191,26 @@
             </div>
           </article>
 
-          <!-- TEAM MEMBER: Shelly
-               NOTE: MLS records show listings under both "Shelly Kindschuh" and "Michelle Kindschuh"
-               with the same phone, email and license number. Confirm with Josh whether this is one
-               person (and which name to display) or two agents. -->
+          <!-- TEAM MEMBER: Ashley Vollmar -->
           <article class="agent">
-            <!-- TODO(Josh): add Shelly's headshot at assets/team/shelly.jpg -->
-            <div class="agent-photo placeholder" aria-hidden="true">SK</div>
+            <img class="agent-photo" src="assets/team/ashley.jpg" alt="Ashley Vollmar, Agent at Empire Real Estate" width="533" height="800" loading="lazy">
+            <div class="agent-body">
+              <h3>Ashley Vollmar</h3>
+              <p class="agent-role">Agent</p>
+              <!-- TODO(Josh): add Ashley's bio, and her direct phone/email if she wants them listed. -->
+              <p class="placeholder-text">[Bio coming soon]</p>
+              <p class="agent-contact">
+                <a href="tel:+19206192170">(920) 619-2170</a>
+              </p>
+            </div>
+          </article>
+
+          <!-- TEAM MEMBER: Shelly Kindschuh (appears as "Michelle Kindschuh" on some MLS listings) -->
+          <article class="agent">
+            <img class="agent-photo" src="assets/team/shelly.jpg" alt="Shelly Kindschuh, Agent at Empire Real Estate" width="533" height="800" loading="lazy">
             <div class="agent-body">
               <h3>Shelly Kindschuh</h3>
-              <p class="agent-role">Real Estate Agent</p>
+              <p class="agent-role">Agent</p>
               <p>Shelly grew up spending summers at her family's cabin before the family made Lake Metonga in Crandon their permanent home. After years in sales, and previously with Action Real Estate in Crandon, she joined her son Josh at Empire Real Estate. Her promise: she will always keep you informed, whether you're buying or selling.</p>
               <p class="agent-contact">
                 <a href="tel:+19205746884">(920) 574-6884</a>
@@ -209,18 +219,6 @@
               </p>
             </div>
           </article>
-
-          <!-- TEMPLATE for another agent: copy this block, remove the comment markers, and fill in.
-          <article class="agent">
-            <div class="agent-photo placeholder" aria-hidden="true">AB</div>
-            <div class="agent-body">
-              <h3>Agent Name</h3>
-              <p class="agent-role">Real Estate Agent</p>
-              <p>Bio…</p>
-              <p class="agent-contact"><a href="tel:+1XXXXXXXXXX">(XXX) XXX-XXXX</a></p>
-            </div>
-          </article>
-          -->
         </div>
       </div>
     </section>

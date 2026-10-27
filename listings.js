@@ -78,7 +78,7 @@ window.EMPIRE_LISTINGS = [
     sqft: 1550,
     acres: 1.56,
     mls: "220004",
-    agent: "Michelle Kindschuh",
+    agent: "Shelly Kindschuh",
     description:
       "Immaculate 2006-built home with Brazilian Tiger hardwood throughout, cathedral-ceiling living room, 3-season room, main-floor primary and laundry, upstairs loft suite with claw-foot tub, and a detached 2-car garage with room for toys.",
     // Source: https://www.ezhomesearch.com/propertydetails/us/wi/pelican-lake/383-cth-b-54463/220004/
@@ -96,7 +96,7 @@ window.EMPIRE_LISTINGS = [
     sqft: 1040,
     acres: 7.08,
     mls: "218689",
-    agent: "Michelle Kindschuh",
+    agent: "Shelly Kindschuh",
     description:
       "Year-round home or cabin with 180 ft of Peshtigo River frontage on just over 7 wooded acres with open field areas. Bonus office/den, full basement, and two garages for boats, UTVs and snowmobiles.",
     // Source: https://www.firstweber.com/realestate/details/26037785/4087-hwy-8-argonne-wi-54511 (price reduced to $189,900 on 10/16/2026)
