@@ -42,7 +42,7 @@ window.EMPIRE_LISTINGS = [
     sqft: 1140,
     acres: null, // complex acreage only — not the unit
     mls: "50334880",
-    agent: "Empire Real Estate",
+    agent: "Shelly Kindschuh · (920) 574-6884",
     description:
       "Completely updated, meticulously maintained 2004 Pineridge condo with gas fireplace and an attached 2-car garage. New flooring, fixtures, trim, toilets and sinks, Nest thermostats and a Ring camera; interior repainted 2025–2026. Most new furniture included (except bedroom set and desk). Within a block of the TAG Center (swimming, exercise) and a dog park.",
     // Sources: https://www.premierrealty.group/property/RANW-50334880/
