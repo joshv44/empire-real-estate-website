@@ -65,7 +65,7 @@ window.EMPIRE_LISTINGS = [
     description:
       "Historic Northwoods resort on 27 acres with 1,900 ft of frontage on the Moen Lake Chain: a classic 1920s lodge with full liquor license bar and lounge, a 5,000 sq ft recreation hall, guest cabins, an owner's residence and a sandy beach.",
     // Source: https://www.bolenrealty.com/real-estate/4000-lakeshore-dr-rhinelander-wi-54501/217391/197066163
-    url: "https://www.shorewest.com/WI/Oneida/Rhinelander/4000-Lakeshore-Dr-Rhinelander-WI-54501/217391-GNMLS",
+    url: "https://gnmls.xposureapp.com/portal/wisconsin/InteractiveLink?u=1378732&l=217391&t=ici&h=J9%2BaNPkmHH7A7zHBgmzp9HNMk%2FU%3D",
     photo: ""
   },
   {
