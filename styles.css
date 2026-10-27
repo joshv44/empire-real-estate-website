@@ -194,3 +194,19 @@ h3{font-size:1.3rem}
   .mobile-cta a{color:#fff;text-decoration:none;text-align:center;padding:.85rem 0;font-weight:600;font-size:.95rem;border-right:1px solid rgba(255,255,255,.15)}
   .mobile-cta a:last-child{border-right:0;color:var(--gold)}
 }
+
+/* Hero sub-link */
+.hero-sub{margin:1.4rem 0 0}
+.hero-sub a{color:var(--gold);font-weight:600;text-decoration:none;border-bottom:1px solid rgba(201,162,39,.5)}
+.hero-sub a:hover{color:#fff}
+/* Featured services */
+.feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;margin-bottom:1.6rem}
+.feature{border-radius:var(--radius);padding:2rem;box-shadow:var(--shadow)}
+.feature h3{font-size:1.7rem}
+.feature-dark{background:linear-gradient(135deg,var(--green),#06281f);color:#fff}
+.feature-dark h3{color:#fff}
+.feature-dark p{color:rgba(255,255,255,.9)}
+.feature-light{background:var(--cream);border:2px solid var(--gold)}
+.feature-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
+@media (max-width:860px){.feature-grid{grid-template-columns:1fr}}
+@media (max-width:640px){.feature{padding:1.5rem}.feature-actions .btn{width:100%}}

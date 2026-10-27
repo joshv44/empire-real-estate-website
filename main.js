@@ -111,7 +111,18 @@
     });
   }
 
+  // Links with data-interest preselect the contact form's "I'm interested in" option.
+  function wireInterestLinks() {
+    document.querySelectorAll("[data-interest]").forEach(function (a) {
+      a.addEventListener("click", function () {
+        var sel = document.querySelector('#contactForm select[name="Interest"]');
+        if (sel) sel.value = a.getAttribute("data-interest");
+      });
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
+    wireInterestLinks();
     renderListings();
     renderRecent();
     wireForm(document.getElementById("valuationForm"));
