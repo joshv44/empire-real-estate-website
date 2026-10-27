@@ -1,164 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empire Real Estate | Northwoods Luxury | Crandon, WI | Land • Lakes • Luxury</title>
-    <meta name="description" content="Premium real estate in Wisconsin's Northwoods. Specializing in land, hunting land, recreational land, lake homes & cabins. Family-owned by Josh Vollmar, Ashley Vollmar & Shelly Kindschuh.">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&display=swap');
-        body { font-family: 'Inter', system-ui, sans-serif; }
-        .northwoods-hero {
-            background: linear-gradient(rgba(10, 61, 47, 0.68), rgba(10, 61, 47, 0.78)),
-            url('./hero-bg.jpg');
-            background-size: cover; background-position: center;
-        }
-        .property-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
-        .property-card:hover { transform: translateY(-10px); box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25); }
-        .pine-logo { width: 42px; height: 42px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empire Real Estate | Crandon, WI Land, Lake &amp; Northwoods Homes</title>
+  <meta name="description" content="Empire Real Estate is a Crandon, Wisconsin brokerage helping buyers and sellers with Northwoods land, lake homes, cabins and recreational property across Forest County and beyond. Call (920) 619-2170.">
+  <meta name="keywords" content="Crandon WI real estate, Forest County land for sale, Northwoods lake homes, Wisconsin hunting land, cabins for sale Crandon, Lake Metonga, Empire Real Estate">
+  <link rel="canonical" href="https://empirerealestatewi.com/">
+  <meta name="theme-color" content="#0A3D2F">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Empire Real Estate">
+  <meta property="og:title" content="Empire Real Estate | Land • Lakes • Luxury in Wisconsin's Northwoods">
+  <meta property="og:description" content="Crandon-based brokerage for Northwoods land, lakefront and recreational property. Call or text (920) 619-2170.">
+  <meta property="og:url" content="https://empirerealestatewi.com/">
+  <meta property="og:image" content="https://empirerealestatewi.com/assets/hero-bg.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "@id": "https://empirerealestatewi.com/#business",
+    "name": "Empire Real Estate",
+    "legalName": "Empire Real Estate LLC",
+    "url": "https://empirerealestatewi.com/",
+    "image": "https://empirerealestatewi.com/assets/hero-bg.jpg",
+    "logo": "https://empirerealestatewi.com/assets/logo.svg",
+    "telephone": "+1-920-619-2170",
+    "slogan": "Land • Lakes • Luxury",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "4315 Section 9 Rd",
+      "addressLocality": "Crandon",
+      "addressRegion": "WI",
+      "postalCode": "54520",
+      "addressCountry": "US"
+    },
+    "areaServed": ["Crandon, WI", "Forest County, WI", "Oneida County, WI", "Northern Wisconsin"],
+    "employee": [
+      {"@type": "Person", "name": "Joshua Vollmar", "jobTitle": "Broker / Owner"},
+      {"@type": "Person", "name": "Shelly Kindschuh", "jobTitle": "Real Estate Agent", "telephone": "+1-920-574-6884"}
+    ]
+  }
+  </script>
 </head>
-<body class="bg-[#F8F1E9] text-[#1F2937]">
-    <!-- NAV -->
-    <nav class="bg-white/95 backdrop-blur-md fixed w-full z-50 shadow-sm">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="flex justify-between items-center h-20">
-                <div class="flex items-center gap-x-3">
-                    <div class="pine-logo">
-                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M50 8 L75 35 L65 35 L80 55 L70 55 L85 75 L50 92 L15 75 L30 55 L20 55 L35 35 L25 35 Z" fill="none" stroke="#C9A227" stroke-width="6"/>
-                            <path d="M50 12 L72 38 L62 38 L77 56 L67 56 L82 74 L50 88 L18 74 L33 56 L23 56 L38 38 L28 38 Z" fill="#0A3D2F"/>
-                            <rect x="46" y="74" width="8" height="14" fill="#C9A227"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <div class="font-bold text-3xl tracking-tighter text-[#0A3D2F]">EMPIRE</div>
-                        <div class="text-[10px] font-semibold text-[#C9A227] -mt-1 tracking-[3px]">REAL ESTATE</div>
-                    </div>
-                </div>
-                <div class="hidden md:flex items-center gap-x-9 text-sm font-medium">
-                    <a href="#about" class="hover:text-[#C9A227] transition">About</a>
-                    <a href="#listings" class="hover:text-[#C9A227] transition">Listings</a>
-                    <a href="#services" class="hover:text-[#C9A227] transition">Services</a>
-                    <a href="#contact" class="hover:text-[#C9A227] transition">Contact</a>
-                </div>
-                <div class="flex items-center gap-x-4">
-                    <a href="tel:9206192170" class="hidden sm:flex items-center gap-x-2 px-5 py-2.5 bg-[#0A3D2F] hover:bg-black text-white text-sm font-semibold rounded-full transition">
-                        <i class="fas fa-phone mr-2"></i>
-                        <span>(920) 619-2170</span>
-                    </a>
-                    <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" 
-                            class="px-6 py-2.5 bg-[#C9A227] hover:bg-[#b38f1f] text-[#0A3D2F] text-sm font-bold rounded-full transition flex items-center gap-x-2">
-                        Get Started
-                    </button>
-                    <button class="md:hidden w-10 h-10 flex items-center justify-center text-[#0A3D2F]" onclick="toggleMobileMenu()">
-                        <i class="fas fa-bars text-xl"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </nav>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <!-- HERO + STATS + ABOUT + SERVICES + CONTACT sections remain the same (shortened for space) -->
+  <!-- ================= HEADER ================= -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Empire Real Estate home">
+        <img src="assets/logo.svg" alt="" width="40" height="40">
+        <span class="brand-text">
+          <span class="brand-name">EMPIRE</span>
+          <span class="brand-sub">REAL ESTATE</span>
+        </span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#listings">Listings</a>
+        <a href="#services">Services</a>
+        <a href="#team">Team</a>
+        <a href="#area">Area Guide</a>
+        <a href="#valuation">Home Value</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-gold nav-cta" href="tel:+19206192170">Call (920) 619-2170</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
-    <!-- FULL LISTINGS SECTION -->
-    <section id="listings" class="max-w-7xl mx-auto px-6 py-20 bg-[#F8F1E9]">
-        <div class="text-center mb-12">
-            <div class="text-[#C9A227] text-sm font-semibold tracking-[2px]">CURRENT OPPORTUNITIES</div>
-            <h2 class="text-5xl font-bold tracking-tighter text-[#0A3D2F]">Northwoods Listings</h2>
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">CRANDON • FOREST COUNTY • NORTHERN WISCONSIN</p>
+        <h1>Land • Lakes • Luxury</h1>
+        <p class="hero-lead">Hunting land, lake homes, cabins and Northwoods getaways. Empire Real Estate is a local, family-run brokerage helping you buy or sell in the place we call home.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold btn-lg" href="tel:+19206192170">📞 Call (920) 619-2170</a>
+          <a class="btn btn-outline-light btn-lg" href="sms:+19206192170">💬 Text Us</a>
+          <a class="btn btn-outline-light btn-lg" href="#valuation">What's My Property Worth?</a>
         </div>
-        <div id="listings-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+      </div>
     </section>
 
-    <script>
-        let listings = [
-            {
-                id: 4,
-                type: 'lake',
-                title: 'Historic Resort on Moen Lake Chain',
-                address: '4000 Lakeshore Dr, Oneida, WI',
-                price: 1499999,
-                priceDisplay: '$1,499,999',
-                beds: 8,
-                baths: 6,
-                acres: 27.28,
-                image: 'https://listings.northwoodsrealtors.org/images/36m6k/main.jpg',
-                badge: 'LAKE RESORT',
-                badgeColor: 'bg-[#0A3D2F]',
-                description: 'Rare historic 1920s Northwoods resort on 27.28 acres with 1,900 ft of waterfront on the Moen Lake Chain. Includes main lodge, bar, recreation hall, guest cabins, owner’s residence, and sandy beach. Excellent investment or family compound opportunity.'
-            },
-            {
-                id: 0,
-                type: 'land',
-                title: 'E Sipple Ln - Crandon',
-                address: 'E Sipple Ln, Crandon, WI 54520',
-                price: 154572,
-                priceDisplay: '$154,572',
-                acres: 70,
-                image: 'https://photos.zillowstatic.com/fp/be2a5a70e0e483eb936ab34f5a85e65f-cc_ft_1536.webp',
-                badge: 'LAND',
-                badgeColor: 'bg-emerald-700',
-                description: '70-acre recreational parcel with mixed timber and rolling topography. Perfect for hunting and future building.'
-            },
-            {
-                id: 1,
-                type: 'lake',
-                title: 'Luxury Lake Lucerne Estate',
-                address: '3857 Lake Lucerne Dr, Crandon, WI 54520',
-                price: 2099000,
-                priceDisplay: '$2,099,000',
-                beds: 3,
-                baths: 4,
-                sqft: 2952,
-                acres: 7.65,
-                image: 'https://photos.zillowstatic.com/fp/927fccc0bec7fcb3653f9bb21c3e214b-uncropped_scaled_within_1536_1152.webp',
-                badge: 'LAKE HOME',
-                badgeColor: 'bg-[#0A3D2F]',
-                description: 'Stunning custom home on Lake Lucerne with 300 ft of sandy frontage and 7.65 wooded acres.'
-            },
-            {
-                id: 2,
-                type: 'cabin',
-                title: 'Cozy Woods Home Near Nicolet National Forest',
-                address: '8303 Keith Siding Rd, Crandon, WI 54520',
-                price: 249000,
-                priceDisplay: '$249,000',
-                beds: 2,
-                baths: 1,
-                sqft: 1336,
-                acres: 0.95,
-                image: 'https://photos.zillowstatic.com/fp/17ce6237867441f860bef0edf7257cf9-cc_ft_1536.webp',
-                badge: 'CABIN',
-                badgeColor: 'bg-amber-800',
-                description: 'Peaceful 2-bedroom home near Nicolet National Forest with easy access to trails.'
-            },
-            {
-                id: 3,
-                type: 'lake',
-                title: 'Log Home on Horseshoe Lake',
-                address: '3010 Cth W, Crandon, WI 54520',
-                price: 349000,
-                priceDisplay: '$349,000',
-                beds: 1,
-                baths: 1,
-                sqft: 924,
-                acres: 5.2,
-                image: 'https://photos.zillowstatic.com/fp/9fb12e999f566d24c02a136cd247ea35-cc_ft_1536.webp',
-                badge: 'LAKE HOME',
-                badgeColor: 'bg-[#0A3D2F]',
-                description: 'Full log home with views of Horseshoe Lake and additional guest cabins on 5.2 acres.'
-            }
-        ];
+    <!-- ================= TRUST STRIP ================= -->
+    <section class="trust">
+      <div class="container trust-grid">
+        <div><strong>Local</strong><span>Office on Section 9 Rd in Crandon</span></div>
+        <div><strong>Land &amp; Lakes</strong><span>Recreational, waterfront &amp; rural property</span></div>
+        <div><strong>Buy or Sell</strong><span>Full-service representation</span></div>
+        <div><strong>Always Informed</strong><span>Straight answers, fast replies</span></div>
+      </div>
+    </section>
 
-        // Rest of the JavaScript (render functions, modal, etc.) remains the same as your current code
-        // (I kept your full script structure)
+    <!-- ================= LISTINGS ================= -->
+    <section class="section" id="listings">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">CURRENT OPPORTUNITIES</p>
+          <h2>Featured Listings</h2>
+          <p class="section-sub">Click any property for full photos and MLS details. Don't see what you need? Many land and lake properties sell quickly. <a href="#contact">Tell us what you're looking for</a> and we'll watch the market for you.</p>
+        </div>
+        <div class="listings-grid" id="listingsGrid" aria-live="polite"></div>
+        <noscript><p>Please enable JavaScript to see listings, or call (920) 619-2170.</p></noscript>
 
-        function renderListings(filtered = listings) { ... } // (your existing functions)
-        // ... (all other functions)
+        <div class="recent">
+          <h3>Recent Results</h3>
+          <ul class="recent-list" id="recentSales"></ul>
+          <p class="fine">Closed transactions in which Empire Real Estate represented the buyer or seller, as shown on the brokerage's public <a href="https://www.realty.com/office/23678353/empire_real_estate" target="_blank" rel="noopener">realty.com office profile</a>.</p>
+        </div>
+      </div>
+    </section>
 
-        window.onload = initializeWebsite;
-    </script>
+    <!-- ================= SERVICES ================= -->
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">WHY EMPIRE</p>
+          <h2>How We Help</h2>
+        </div>
+        <div class="services-grid">
+          <article class="service">
+            <div class="service-icon" aria-hidden="true">🏡</div>
+            <h3>Buying</h3>
+            <p>From a weekend cabin to a year-round move "Up North," we'll set up your search, show you properties, and guide you through offers, inspections and closing.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon" aria-hidden="true">🔑</div>
+            <h3>Selling</h3>
+            <p>Local pricing advice, quality listing presentation, MLS exposure across Northwoods and statewide search sites, and steady communication until closing day.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon" aria-hidden="true">🌲</div>
+            <h3>Land &amp; Recreational</h3>
+            <p>Hunting land, wooded acreage, hobby farms and recreational parcels near trails and public land. We know what buyers ask about: access, boundaries and use.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon" aria-hidden="true">🛶</div>
+            <h3>Lakefront &amp; Riverfront</h3>
+            <p>Lake homes, river frontage and resort properties. We'll help you compare frontage, shoreline and water access so you buy the right spot on the water.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon" aria-hidden="true">🏨</div>
+            <h3>Commercial &amp; Investment</h3>
+            <p>Resorts, businesses and income property in the Northwoods, including properties marketed to investors statewide and beyond.</p>
+          </article>
+          <article class="service">
+            <div class="service-icon" aria-hidden="true">🚚</div>
+            <h3>Relocation</h3>
+            <p>Moving to the Northwoods from the Fox Cities, Milwaukee, Madison or Chicago? We can answer your questions and share local know-how before you make the drive.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TEAM ================= -->
+    <section class="section" id="team">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">LOCAL &amp; FAMILY-RUN</p>
+          <h2>Meet the Team</h2>
+        </div>
+        <div class="team-grid">
+          <!-- TEAM MEMBER: Josh -->
+          <article class="agent">
+            <!-- TODO(Josh): replace with a headshot: save as assets/team/josh.jpg and swap the div below for <img src="assets/team/josh.jpg" alt="Joshua Vollmar"> -->
+            <div class="agent-photo placeholder" aria-hidden="true">JV</div>
+            <div class="agent-body">
+              <h3>Joshua Vollmar</h3>
+              <p class="agent-role">Broker / Owner</p>
+              <!-- TODO(Josh): add a 2–4 sentence bio (background, specialties, why you started Empire). -->
+              <p>Josh is the founder of Empire Real Estate and a licensed Wisconsin real estate broker based in Crandon. He works with buyers and sellers of land, lakefront, residential and commercial property throughout the Northwoods.</p>
+              <p class="placeholder-text">[Full bio coming soon]</p>
+              <p class="agent-contact">
+                <a href="tel:+19206192170">(920) 619-2170</a>
+                <!-- TODO(Josh): add your business email, e.g. <a href="mailto:you@empirerealestatewi.com">you@empirerealestatewi.com</a> -->
+              </p>
+            </div>
+          </article>
+
+          <!-- TEAM MEMBER: Shelly
+               NOTE: MLS records show listings under both "Shelly Kindschuh" and "Michelle Kindschuh"
+               with the same phone, email and license number. Confirm with Josh whether this is one
+               person (and which name to display) or two agents. -->
+          <article class="agent">
+            <!-- TODO(Josh): add Shelly's headshot at assets/team/shelly.jpg -->
+            <div class="agent-photo placeholder" aria-hidden="true">SK</div>
+            <div class="agent-body">
+              <h3>Shelly Kindschuh</h3>
+              <p class="agent-role">Real Estate Agent</p>
+              <p>Shelly grew up spending summers at her family's cabin before the family made Lake Metonga in Crandon their permanent home. After years in sales, and previously with Action Real Estate in Crandon, she joined her son Josh at Empire Real Estate. Her promise: she will always keep you informed, whether you're buying or selling.</p>
+              <p class="agent-contact">
+                <a href="tel:+19205746884">(920) 574-6884</a>
+                <a href="mailto:empirerealestateshelly@gmail.com">empirerealestateshelly@gmail.com</a>
+                <a href="https://www.zillow.com/profile/skindschuh2" target="_blank" rel="noopener">Zillow reviews ↗</a>
+              </p>
+            </div>
+          </article>
+
+          <!-- TEMPLATE for another agent: copy this block, remove the comment markers, and fill in.
+          <article class="agent">
+            <div class="agent-photo placeholder" aria-hidden="true">AB</div>
+            <div class="agent-body">
+              <h3>Agent Name</h3>
+              <p class="agent-role">Real Estate Agent</p>
+              <p>Bio…</p>
+              <p class="agent-contact"><a href="tel:+1XXXXXXXXXX">(XXX) XXX-XXXX</a></p>
+            </div>
+          </article>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= VALUATION ================= -->
+    <section class="section valuation" id="valuation">
+      <div class="container valuation-inner">
+        <div class="valuation-copy">
+          <p class="eyebrow eyebrow-light">FREE, NO OBLIGATION</p>
+          <h2>What's My Property Worth?</h2>
+          <p>Thinking about selling your cabin, lake home or land? Tell us a little about it and a local agent will put together a free market analysis using recent Northwoods sales. No pressure, just real numbers.</p>
+          <ul class="checks">
+            <li>Homes, cabins, lake &amp; river frontage</li>
+            <li>Vacant land, hunting &amp; recreational acreage</li>
+            <li>Resorts and commercial property</li>
+          </ul>
+        </div>
+        <!-- TODO(Josh): choose how form submissions reach you. Right now the form opens the visitor's
+             email app (mailto). To receive submissions directly, sign up for a form service
+             (e.g. Formspree or FormSubmit) and set data-endpoint on this form to its URL. -->
+        <form class="card form" id="valuationForm" data-subject="Free Home Valuation Request" data-endpoint="">
+          <label>Your name<input name="Name" required autocomplete="name"></label>
+          <div class="form-row">
+            <label>Phone<input name="Phone" type="tel" autocomplete="tel"></label>
+            <label>Email<input name="Email" type="email" autocomplete="email"></label>
+          </div>
+          <label>Property address<input name="Property address" required></label>
+          <div class="form-row">
+            <label>Property type
+              <select name="Property type">
+                <option>Home / cabin</option>
+                <option>Lakefront / riverfront</option>
+                <option>Vacant land / acreage</option>
+                <option>Farm</option>
+                <option>Commercial / resort</option>
+              </select>
+            </label>
+            <label>Timeframe
+              <select name="Timeframe">
+                <option>Just curious</option>
+                <option>0–3 months</option>
+                <option>3–6 months</option>
+                <option>6–12 months</option>
+              </select>
+            </label>
+          </div>
+          <label>Anything else? (acres, frontage, updates)<textarea name="Details" rows="3"></textarea></label>
+          <button class="btn btn-gold btn-block" type="submit">Request My Free Valuation</button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================= AREA GUIDE ================= -->
+    <section class="section section-alt" id="area">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">AREA GUIDE</p>
+          <h2>Crandon &amp; Forest County</h2>
+          <p class="section-sub">Crandon is the county seat of Forest County, in the heart of Wisconsin's Northwoods: a four-season region of lakes, rivers and national forest.</p>
+        </div>
+        <div class="area-grid">
+          <article class="area-card">
+            <h3>Lakes</h3>
+            <p>Crandon sits on the shore of Lake Metonga, and the surrounding area is dotted with lakes large and small, from popular recreational lakes to quiet, undeveloped shorelines. Nearby Oneida County adds chains like the Moen Lake Chain near Rhinelander.</p>
+          </article>
+          <article class="area-card">
+            <h3>Rivers</h3>
+            <p>The Peshtigo, Wolf and Pine rivers and their tributaries wind through the region, offering trout water, paddling and private river frontage that is hard to find elsewhere.</p>
+          </article>
+          <article class="area-card">
+            <h3>Public Land &amp; Hunting</h3>
+            <p>Much of Forest County lies within the Chequamegon-Nicolet National Forest, giving landowners nearby access to large tracts of public land for hunting, hiking and exploring.</p>
+          </article>
+          <article class="area-card">
+            <h3>Trails &amp; Four Seasons</h3>
+            <p>ATV/UTV routes and groomed snowmobile trails connect communities across the Northwoods. Summers bring boating and fishing; fall color and hunting season follow; winter brings snow sports and ice fishing.</p>
+          </article>
+          <article class="area-card">
+            <h3>Getting Here</h3>
+            <p>Crandon is on US Highway 8, east of Rhinelander, a manageable drive from Green Bay and the Fox Cities, and within reach of Milwaukee, Madison and Chicago for weekend owners.</p>
+          </article>
+          <article class="area-card">
+            <h3>Buying Land? Ask Us About…</h3>
+            <p>Road access and easements, surveys and boundaries, zoning and building rules, well and septic, power availability, and shoreland regulations on waterfront parcels. We'll help you get answers before you buy.</p>
+          </article>
+        </div>
+        <!-- TODO(Josh): add your favorite lakes, communities you serve (e.g. Argonne, Laona, Wabeno, Pickerel, Pelican Lake), and local tips. -->
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">CLIENT STORIES</p>
+          <h2>What Our Clients Say</h2>
+        </div>
+        <!-- TODO(Josh): paste real client testimonials here (with the client's permission).
+             Copy a <blockquote class="testimonial"> block for each one. Do NOT invent reviews. -->
+        <div class="testimonials-grid">
+          <blockquote class="testimonial placeholder-box">
+            <p>[Client testimonial coming soon]</p>
+            <cite>Client name, town</cite>
+          </blockquote>
+          <blockquote class="testimonial placeholder-box">
+            <p>[Client testimonial coming soon]</p>
+            <cite>Client name, town</cite>
+          </blockquote>
+          <blockquote class="testimonial placeholder-box">
+            <p>[Client testimonial coming soon]</p>
+            <cite>Client name, town</cite>
+          </blockquote>
+        </div>
+        <p class="center"><a class="btn btn-outline" href="https://www.zillow.com/profile/skindschuh2" target="_blank" rel="noopener">Read client reviews on Zillow ↗</a></p>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section section-dark" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow eyebrow-light">GET IN TOUCH</p>
+          <h2>Let's Talk Northwoods Real Estate</h2>
+          <p>Call, text or send a message. We'll get right back to you.</p>
+          <ul class="contact-list">
+            <li><span>Phone / Text</span><a href="tel:+19206192170">(920) 619-2170</a></li>
+            <li><span>Office</span><a href="https://maps.google.com/?q=4315+Section+9+Rd,+Crandon,+WI+54520" target="_blank" rel="noopener">4315 Section 9 Rd, Crandon, WI 54520</a></li>
+            <!-- TODO(Josh): add office email and hours, e.g.
+            <li><span>Email</span><a href="mailto:info@empirerealestatewi.com">info@empirerealestatewi.com</a></li>
+            <li><span>Hours</span>By appointment</li> -->
+            <!-- TODO(Josh): add your Facebook page link:
+            <li><span>Facebook</span><a href="https://www.facebook.com/YOURPAGE" target="_blank" rel="noopener">Empire Real Estate</a></li> -->
+          </ul>
+          <div class="map-wrap">
+            <iframe title="Map of Empire Real Estate, 4315 Section 9 Rd, Crandon, WI" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://maps.google.com/maps?q=4315%20Section%209%20Rd%2C%20Crandon%2C%20WI%2054520&t=&z=12&ie=UTF8&iwloc=&output=embed"></iframe>
+          </div>
+          <a class="map-link" href="https://www.google.com/maps/dir/?api=1&destination=4315+Section+9+Rd,+Crandon,+WI+54520" target="_blank" rel="noopener">Get directions ↗</a>
+        </div>
+        <!-- TODO(Josh): same as the valuation form: set data-endpoint to a form service URL to receive messages directly. -->
+        <form class="card form" id="contactForm" data-subject="Website Inquiry" data-endpoint="">
+          <h3>Send a Message</h3>
+          <label>Your name<input name="Name" required autocomplete="name"></label>
+          <div class="form-row">
+            <label>Phone<input name="Phone" type="tel" autocomplete="tel"></label>
+            <label>Email<input name="Email" type="email" autocomplete="email"></label>
+          </div>
+          <label>I'm interested in
+            <select name="Interest">
+              <option>Buying</option>
+              <option>Selling</option>
+              <option>Land / hunting property</option>
+              <option>Lake or river property</option>
+              <option>A specific listing</option>
+              <option>Something else</option>
+            </select>
+          </label>
+          <label>Message<textarea name="Message" rows="4" required></textarea></label>
+          <button class="btn btn-gold btn-block" type="submit">Send Message</button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand brand-footer">
+          <img src="assets/logo.svg" alt="" width="36" height="36">
+          <span class="brand-text"><span class="brand-name">EMPIRE</span><span class="brand-sub">REAL ESTATE</span></span>
+        </div>
+        <p><strong>Empire Real Estate LLC</strong><br>4315 Section 9 Rd, Crandon, WI 54520<br><a href="tel:+19206192170">(920) 619-2170</a></p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#listings">Featured Listings</a></li>
+          <li><a href="#valuation">Free Home Valuation</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#area">Area Guide</a></li>
+        </ul>
+      </div>
+      <div class="eho">
+        <svg viewBox="0 0 64 64" width="44" height="44" role="img" aria-label="Equal Housing Opportunity logo"><path d="M32 6 4 26h8v30h40V26h8L32 6z" fill="none" stroke="currentColor" stroke-width="4"/><rect x="22" y="32" width="20" height="5" fill="currentColor"/><rect x="22" y="42" width="20" height="5" fill="currentColor"/></svg>
+        <p><strong>Equal Housing Opportunity.</strong> We are pledged to the letter and spirit of U.S. policy for the achievement of equal housing opportunity throughout the nation.</p>
+      </div>
+    </div>
+    <div class="container footer-legal">
+      <p>Licensed in the State of Wisconsin. <!-- TODO(Josh): add broker license number(s) if you want them displayed. --> Listing information is deemed reliable but not guaranteed and should be independently verified. Listing details are provided courtesy of the Greater Northwoods MLS and RANW MLS via the linked listing pages.</p>
+      <p>&copy; <span id="year">2026</span> Empire Real Estate LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile call bar -->
+  <div class="mobile-cta">
+    <a href="tel:+19206192170">📞 Call</a>
+    <a href="sms:+19206192170">💬 Text</a>
+    <a href="#valuation">🏷️ Home Value</a>
+  </div>
+
+  <script src="listings.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
