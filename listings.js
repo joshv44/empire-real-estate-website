@@ -52,6 +52,24 @@ window.EMPIRE_LISTINGS = [
   },
   {
     status: "Active",
+    type: "Single Family",
+    title: "Spacious 2-Story Home in Oshkosh",
+    address: "2884 Westmoor Rd, Oshkosh, WI 54904",
+    price: 399900,
+    beds: 3,
+    baths: 2.5,
+    sqft: 2450,
+    acres: 0.28,
+    mls: "50330403",
+    agent: "Shelly Kindschuh · (920) 574-6884",
+    description:
+      "1993-built 2-story home in a well-kept neighborhood near shopping, hospitals and schools. Living room with 12 ft ceilings and a wood fireplace, extra-large kitchen with endless cabinetry and a built-in desk, formal dining room, main-floor primary suite and laundry, attached 2-car garage, and a 51x30 basement ready to finish.",
+    // Sources: https://www.bunburyrealtors.com/home-for-sale/print/2884-Westmoor-Road-Oshkosh-WI-54904-0000/50330403 , https://www.klapperichrealestate.com/homes-for-sale/2884-Westmoor-Road-Oshkosh-WI-54904-437007224
+    url: "https://zsvc.paragon.ice.com/s/goto/FZ9PrD4_UA0",
+    photo: ""
+  },
+  {
+    status: "Active",
     type: "Lakefront Resort",
     title: "Pine Valley Lodge on the Moen Lake Chain",
     address: "4000 Lakeshore Dr, Rhinelander, WI 54501",
