@@ -205,3 +205,7 @@ h3{font-size:1.3rem}
 .feature-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}
 @media (max-width:860px){.feature-grid{grid-template-columns:1fr}}
 @media (max-width:640px){.feature{padding:1.5rem}.feature-actions .btn{width:100%}}
+
+/* Facebook link */
+.fb-link{display:inline-flex;align-items:center;gap:.45rem}
+.fb-icon{flex:none}
