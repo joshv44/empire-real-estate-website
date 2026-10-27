@@ -47,7 +47,7 @@ window.EMPIRE_LISTINGS = [
       "Completely updated, meticulously maintained 2004 Pineridge condo with gas fireplace and an attached 2-car garage. New flooring, fixtures, trim, toilets and sinks, Nest thermostats and a Ring camera; interior repainted 2025–2026. Most new furniture included (except bedroom set and desk). Within a block of the TAG Center (swimming, exercise) and a dog park.",
     // Sources: https://www.premierrealty.group/property/RANW-50334880/
     //          https://www.klapperichrealestate.com/homes-for-sale/334-Brookside-Drive-Unit-5-Mayville-WI-53050-441431843
-    url: "https://www.premierrealty.group/property/RANW-50334880/",
+    url: "https://zsvc.paragon.ice.com/s/goto/LjTs0W-bPCf",
     photo: ""
   },
   {
@@ -83,7 +83,7 @@ window.EMPIRE_LISTINGS = [
     description:
       "7-bedroom farmhouse with a large 2016 addition and main-floor primary suite. 55×96 pole building with 4 horse stalls, 3+ stall garage with 220V, 40×50 Quonset, chicken coop and barn. Pre-approval / proof of funds required to show.",
     // Source: https://www.coldwellbanker.com/wi/brownsville/n3262-state-road-175/lid-P00800000HHSSAf6NS3WPCV7J8Nro9IRt6hWEzYm
-    url: "https://www.coldwellbanker.com/wi/brownsville/n3262-state-road-175/lid-P00800000HHSSAf6NS3WPCV7J8Nro9IRt6hWEzYm",
+    url: "https://zsvc.paragon.ice.com/s/goto/FZ9PrD4_UA0",
     photo: ""
   },
   {
